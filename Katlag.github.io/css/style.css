@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* Headers and text */
+
+/* Orange subheader */
+h1 {
+    font-size: 4rem;
+    font-family: "Yesteryear", cursive;
+    color: #C03F1D;
+}
+
+/* Retro black header */
+h2 {
+    font-size: 3rem;
+    font-family: "Stint Ultra Condensed", serif;
+    color: black;
+}
+
+/* paragraph font */
+p {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    color: black;
+}
+
+
+
+/*navigation*/
+.nav-bg {
+    background-color:  #212529;
+    padding: 0.8rem;
+}
+
+.nav-title {
+    font-family: "Stint Ultra Condensed", serif;
+    color: #bbbbbb;
+    padding: 6.2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.navactive {
+    border-bottom: 2px solid #F4F2EF;
+    color: white;
+}
+
+.navactive .nav-title {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+.jumbotron {
+    background-color: #E9F3F1;
+    padding: 1rem;
+    position: relative;
+}
+
+.double-border {
+    border: 3px solid black;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    /* Adjust this value to position the box vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.outer-border {
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-block;
+    background-color: white;
+}
+
+.jumbotron-border {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: absolute;
+    bottom: -35px;
+    /* Position the box vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    font-family: "Stint Ultra Condensed", serif;
+    font-size: 3rem;
+    box-shadow: 3px 3px rgb(126, 126, 126);
+    width: 30%;
+    text-align: center;
+    height: 18%;
+}
+
+/* Center class */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.jumbotronImage {
+    width: 25%;
+}
+
+.jumbotronIcon {
+    width: 15%; 
+    margin-right: 2.7rem;
+}
+
+
+    /* Media query for small screens */
+    @media (max-width: 768px) {
+        .jumbotronImage {
+            width: 50%; 
+        }
+
+        .jumbotron-border {
+            width: 70%; /* Adjust jumbotron border width for smaller screens */
+            height: 15%; /* Adjust jumbotron border height for smaller screens */
+            font-size: 2rem;
+        }
+        .jumbotronIcon {
+            width: 25%; 
+            margin-right: 1rem; 
+        }
+    }
+
+        /* Media query for large screens */
+        @media (max-width: 992px) {
+            .jumbotronImage {
+                width: 40%; 
+            }
+    
+            .jumbotron-border {
+                width: 50%;
+                height: 25%; 
+            }
+        }
+

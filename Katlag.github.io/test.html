@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Jumbotron</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .jumbotron {
+            background-color: #e6f7ff;
+            /* Light blue background */
+            padding: 5rem;
+            position: relative;
+        }
+
+        .double-border {
+            border: 3px solid black;
+            padding: 5px;
+            display: inline-block;
+            position: absolute;
+            bottom: -30px;
+            /* Adjust this value to position the box vertically */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+        }
+
+        .outer-border {
+            border: 2px solid black;
+            padding: 15px;
+            display: inline-block;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome!</h1>
+        <p class="lead">This is a light blue jumbotron.</p>
+        <div class="double-border">
+            <div class="outer-border">
+                <span>Hello it is me</span>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
