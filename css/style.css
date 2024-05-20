@@ -1,58 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/*applies to whole page*/
-html,
-body {
+
+  /*applies to whole page*/
+html,body
+{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
+/* Headers and text */
 
-/* headers */
+/* Orange subheader */
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 4rem;
-
+    font-family: "Yesteryear", cursive;
+    color: #C03F1D;
 }
 
+/* Retro black header */
 h2 {
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3rem;
-    font-weight: 400;
+    font-family: "Stint Ultra Condensed", serif;
+    color: black;
 }
 
+/* Retro sub headers on cards */
 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
-    text-align: center;
-
+    font-size: 2.5rem;
+    font-family: "Stint Ultra Condensed", serif;
+    color: black;
 }
 
-h4 {
-    margin-top: 0.5rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-}
 
-h5 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
-}
-
+/* paragraph font */
 p {
-    font-family: "Roboto Serif", serif;
-    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    color: black;
 }
 
 
+.top-margin {
+    margin-top: 10rem;
+}
+
+
+/* Center class */
 .center {
     display: block;
     margin-left: auto;
@@ -60,174 +57,170 @@ p {
     text-align: center;
 }
 
-/* navigation */
-/* .navTitle {
-    padding-right: 5rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.5rem;
-    float: right;
-}
 
-.navTitle2 {
-    padding-right: 15rem;
-    background-color: blue;
-} */
-
+/*navigation*/
 .nav-bg {
-    background-color: #ffffff ;
-    /* overflow: hidden; */
-    /* position: fixed; */
-    top: 0;
-    /* width: 100%;  */
-    /* z-index:1;  */
+    background-color:  #212529;
+    padding: 0.8rem;
 }
 
-/*background image and text for the home page*/
-.background-img {
-    background-image: url("../images/image.psd\(6\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    position: relative;
-    /* margin-top: 6rem; */
+.nav-title {
+    font-family: "Stint Ultra Condensed", serif;
+    color: #bbbbbb;
+    margin: 6.7rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-align: center;
 }
 
-.background_img h1 {
-    position: absolute;
-    padding-top: 17rem;
-    width: 100%;
-    font-size: 5rem;
-    color: #859B4E;
-    font-family: 'Roboto Condensed', sans-serif;
+.navactive {
+    border-bottom: 2px solid #F4F2EF;
+    color: white;
 }
 
-.background_img h3 {
-    position: absolute;
-    top: 350px;
-    width: 100%;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #859B4E;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-/* buttons */
-.btn-home {
-    font-size: 1.5rem;
-    font-family: 'Roboto Condensed', sans-serif;
+.navactive .nav-title {
     color: white;
 }
 
 a:hover {
     color: white;
-    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
 }
 
 
-
-/* Footer */
-.page-footer {
-    background-color: #e8eff2;
-    padding: 0.1rem;
-    margin-top: 3rem;
+/* Jumbotron classes */
+.jumbotron {
+    background-color: #E9F3F1;
+    padding: 1rem;
+    position: relative;
+    height: 48%;
 }
 
-.page-footer p {
-    color: black;
-    text-align: center;
-    float: left;
-    font-size: 15px;
-    margin-right: 6rem;
+
+.double-border {
+    border: 3px solid black;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    /* Adjust this value to position the box vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
 }
 
-.page-footer h6 {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 2rem;
-    font-weight: 400;
+.outer-border {
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-block;
+    background-color: white;
+}
+
+.jumbotron-border {
+    border: 2px solid black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 1rem;
-}
-
-.footer-icon {
-    float: left;
-    margin-right: 0.5rem;
-}
-
-.dropdown-menu label {
-    display: block;
-}
-
-
-
-
-/* request form */
-.formTitle name {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.buttonCol {
-    background-color: #e8eff2;
-}
-
-  hr {
-    background: linear-gradient(to right, #14C0F3 , #96C345, #F36B22);
-    height: 3px;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: absolute;
+    bottom: -45px;
+    /* Position the box vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    font-family: "Stint Ultra Condensed", serif;
+    font-size: 3rem;
+    box-shadow: 5px 5px rgb(126, 126, 126);
+    width: 30%;
+    text-align: center;
+    height: 18%;
+    padding-right: 3rem;
 }
 
 
-/* services page */
-.ourServices {
-    background: linear-gradient(to right, #c2e9f5 , #e7f6cd, #f3dacc);
-    width: 100%;
-    height: 35rem;
-    margin-top: 8rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 20px;
+
+.jumbotronImage {
+    width: 25%;
+}
+
+.jumbotronIcon {
+    width: 15%; 
+    margin-right: 2.7rem;
+}
+
+/* Home page classes */
+.home-bg {
+    background-color: #E9F3F1;
+    height: 80%;
+    padding: 7rem;
+}
+
+.homeValues {
+    width: 75%;
+    margin-top: 12rem;
+}
+
+.motorbike-card-home {
+    border: black solid 3px;
+    border-radius: 0%;
+    box-shadow: 7px 7px rgb(146, 146, 146);
+    background-color: #EBDEC0;
 }
 
 
-.ourServices h4{
-    color: rgb(64, 64, 64);
-}
+
+/* Media queries */
+
+    /* Media query for small- medium screens (phone)  - apparently the phone view???*/
+    @media (max-width: 768px) {
+
+        .jumbotron {
+            height: 35%;
+        }
+
+        .jumbotronImage {
+            width: 100%; 
+            padding-top: 1rem;
+        }
+
+        .jumbotron-border {
+            width: 70%; /* Adjust jumbotron border width for smaller screens */
+            height: 15%; /* Adjust jumbotron border height for smaller screens */
+            font-size: 1.8rem;
+            bottom: -25px;
+            text-align: center;
+            /* margin-right: 2rem;  */
+            padding-right: 1rem;
+        }
+        .jumbotronIcon {
+            width: 20%; 
+            margin-right: 1rem; 
+        }
+
+        .home-bg {
+            width: 100%;
+        }
+    }
 
 
-.wave {
-  display: block;
-  position: relative;
-  height: 40px;
-  width: 100%;
-  background: linear-gradient(to right, #c2e9f5 , #e7f6cd, #f3dacc);
-  transform: scale(1, 1.5);
-}
+    /* Media queries */
 
-.wave:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100%;
-  width: 100%;
-  height: 300px;
-  background-color: white;
-  right: -25%;
-  top: 20px;
-}
+    /* Media query for large screens */
+    @media (max-width: 992px) {
 
-.wave:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100%;
-  width: 100%;
-  height: 300px;
-  background: linear-gradient(to right, #c2e9f5 , #e7f6cd);
-  left: -25%;
-  top: -240px;
-  clip-path: ellipse(100% 15% at -15% 100%);
-}
+        .jumbotron {
+            height: 50%;
+        }
+
+        .jumbotronImage {
+            width: 30%; 
+        }
+
+        .jumbotron-border {
+            width: 50%;
+            height: 20%; 
+        }
+    }
 
