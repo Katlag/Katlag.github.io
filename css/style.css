@@ -3,19 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 
-  /*applies to whole page*/
-html,body
-{
+/*applies to whole page*/
+html,
+body {
     width: 100%;
     margin: 0px;
     padding: 0px;
     /* overflow-x: hidden; */
-    background-color: #f5efdf;
+    background-color: #f6f3ed;
 }
 
 /* Headers and text */
 
 /* Orange subheader */
+
+.titleWithImage {
+    font-size: 4rem;
+    font-family: "Lobster", sans-serif;
+    color: #C03F1D;
+}
+
 h1 {
     font-size: 4rem;
     font-family: "Lobster", sans-serif;
@@ -43,11 +50,25 @@ p {
     font-family: "Merriweather", serif;
     font-weight: 300;
     color: black;
+    font-size: 1.2rem;
 }
 
+.centerpara {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
 
+/* heading margin */
 .top-margin {
     margin-top: 10rem;
+
+}
+
+.upperMargin {
+    margin-top: 7rem;
 }
 
 
@@ -67,7 +88,7 @@ p {
 }
 
 .nav-bg {
-    background-color:  #212529;
+    background-color: #2F3539;
     padding: 0.8rem;
 }
 
@@ -88,7 +109,7 @@ p {
 .navactive {
     /* border-bottom: 2px solid #F4F2EF; */
     color: white;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 .navactive .nav-title {
@@ -97,6 +118,7 @@ p {
 
 a:hover {
     color: white;
+    text-decoration: none;
 }
 
 .navbar-toggler-icon {
@@ -114,8 +136,9 @@ a:hover {
     height: 70vh;
     /* width: 100%; */
     /* padding: 3rem; */
-    position: relative; /* To position the jumbotron-border-home absolutely within this container */
-  }
+    position: relative;
+    /* To position the jumbotron-border-home absolutely within this container */
+}
 
 /* Jumbotron classes */
 .jumbotron {
@@ -129,8 +152,10 @@ a:hover {
 .jumbotron-border {
     border: 2px solid black;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
     position: absolute;
     bottom: -48px;
     /* Position the box vertically */
@@ -141,8 +166,10 @@ a:hover {
     font-size: 3rem;
     box-shadow: 5px 5px rgb(126, 126, 126);
     text-align: center;
-    width: 30%; /* Adjust width to content */
-    height: 17%; /* Adjust height to content */
+    width: 30%;
+    /* Adjust width to content */
+    height: 17%;
+    /* Adjust height to content */
     padding-right: 2rem;
 }
 
@@ -152,48 +179,131 @@ a:hover {
 }
 
 .jumbotronIcon {
-    width: 25%; 
+    width: 25%;
     /* margin-right: 0.5rem; */
 }
 
-  
-  .flex-container {
+
+.flex-container {
     display: flex;
     justify-content: space-between;
     width: 70%;
-  }
-  
-  .flex-item {
+}
+
+.flex-item {
     display: flex;
     align-items: center;
     font-size: 2rem;
-  }
-  
-  .flex-item .icon {
-    width: 3rem; /* Adjust the size of your icon */
+}
+
+.flex-item .icon {
+    width: 3rem;
+    /* Adjust the size of your icon */
     margin-right: 0.5rem;
-  }
-  
+}
 
 
 
-/* cards */
-.motorbike-card-home {
-    border: black solid 3px;
+/* HOME PAGE */
+.bikeWinnerCard {
+    background-color: #EDE7CD;
+    border: 1.5px solid black;
     border-radius: 0%;
-    box-shadow: 7px 7px rgb(146, 146, 146);
-    background-color: #EBDEC0;
+    flex: 1 0 21%;
+    box-shadow: 7px 7px 3px rgb(103, 103, 103);
+    /* Adjust the width of the cards */
+}
+
+
+.card-title-winner {
+    font-family: "Merriweather", serif;
+}
+
+.tankSealing {
+    background-color: #E9F3F1;
+    border: 1.5px solid black;
+    padding: 2rem;
+    box-shadow: 7px 7px 3px rgb(103, 103, 103);
+}
+
+.motoBtn {
+    text-align: center;
+    background-color: #2F3539;
+    font-family: "Stint Ultra Condensed", serif;
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid #2F3539;
+}
+
+.motoBtn:hover {
+    text-align: center;
+    background-color: #E9F3F1;
+    font-family: "Stint Ultra Condensed", serif;
+    font-size: 2rem;
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid black;
+}
+
+
+.restorationsText {
+    background-color: #EDE7CD;
+    border: 1.5px solid black;
+    padding: 1rem;
+    box-shadow: 7px 7px 3px rgb(103, 103, 103);
+}
+
+/* Testimonials */
+.testimonialText {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 6px 6px 3px rgb(179, 179, 179);
+    height: 22vh;
+
+}
+
+.testimonialPara {
+    font-family: "Merriweather", serif;
+    color: black;
+    font-size: 0.95rem;
+}
+
+.testimonialmuted {
+    font-family: "Merriweather", serif;
+    color: rgb(95, 95, 95);
+    font-size: 0.8rem;
+    float: right;
+}
+
+.testimonialBg {
+    background-color: #E9F3F1;
+    padding: 1.5rem;
+    border: 1.5px solid black;
+
+}
+
+
+.double-border::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border: 4px solid black;
+    pointer-events: none;
 }
 
 
 
 
-.placeholder {
-    width: 20%; 
-    margin-top: 2rem;
-}
 
-/* Contact Form */
+/* CONTACT FORM */
 
 .contactForm {
     background-color: #E9F3F1;
@@ -212,9 +322,9 @@ a:hover {
 
 .formLabel textarea {
     border: 1px solid black;
-    border-radius: 0px; 
+    border-radius: 0px;
     padding: 2.5rem;
-    
+
 }
 
 .formLabel {
@@ -261,70 +371,143 @@ a:hover {
 }
 
 
-#gridCheck:checked ~ body {
+#gridCheck:checked~body {
     background-color: black;
-  }
+}
+
+.placeholder {
+    width: 20%;
+    margin-top: 2rem;
+}
+
+
+
+/* FOOTER SECTION */
+.footer {
+    background-color: #2F3539;
+    color: #fff;
+    padding: 20px 0px;
+    border-top: 2px solid black;
+}
+
+.footer .logo {
+    max-width: 150px;
+}
+
+.footer .contact-info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 1.5em;
+    font-family: "Merriweather", serif;
+}
+
+.custom-footer {
+    position: relative;
+}
+
+.custom-footer::before {
+    content: "";
+    position: absolute;
+    top: -2mm;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
 
 /* Media queries */
 
-    /* Media query for phone*/
-    @media (max-width: 600px) {
+/* Media query for phone*/
+@media (max-width: 600px) {
 
-        /* .jumbotron {
+    /* .jumbotron {
             height: 35%;
         } */
 
-        .jumbotronImage {
-            width: 100%; 
-        }
-
-        .jumbotron-border {
-            width: 70%;
-            font-size: 3rem;
-            bottom: -50px;
-            padding: 1rem;
-        }
-        .jumbotronIcon {
-            width: 30%; 
-        }
-
-        .home-bg {
-            width: 100%;
-            height: 70vh;
-        }
-
-        .placeholder {
-            width: 90%;
-        }
+    .jumbotronImage {
+        width: 100%;
     }
 
+    .jumbotron-border {
+        width: 70%;
+        font-size: 3rem;
+        bottom: -50px;
+        padding: 1rem;
+    }
 
-    /* .carousel-item img {
+    .jumbotronIcon {
+        width: 30%;
+    }
+
+    .home-bg {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .placeholder {
+        width: 90%;
+    }
+
+    .mobileCard {
+        margin-top: 2rem;
+    }
+
+    .tankMobileCard {
+        width: 80%
+    }
+
+    .racingImg {
+        width: 15%;
+    }
+
+    /* .aboutImgMobile {
+        vertical-align: top;
+    } */
+
+    .titleWithImage {
+        padding: 0%;
+    }
+
+    .footer .contact-info {
+        justify-content: center;
+    }
+
+    .footer .logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+
+/* .carousel-item img {
         width: 100%;
         height: auto;
     } */
 
-    @media (max-width: 768px) {
-        .carousel-item>div {
-            margin-top: 18rem;
-            display: none;
-        }
-
-        .redMoto {
-            height: 50%;
-        }
-
-        .carousel-item>div:first-child {
-            display: block;
-        }
+@media (max-width: 768px) {
+    .carousel-item>div {
+        margin-top: 18rem;
+        display: none;
     }
+
+    .redMoto {
+        height: 50%;
+    }
+
+    .carousel-item>div:first-child {
+        display: block;
+    }
+}
 
 
 
 
 
 /* kindle size */
-    /* @media (max-width: 900px) {
+/* @media (max-width: 900px) {
 
         .jumbotronImage {
             width: 50%; 
