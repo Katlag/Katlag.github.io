@@ -17,12 +17,6 @@ body {
 
 /* Orange subheader */
 
-.titleWithImage {
-    font-size: 4rem;
-    font-family: "Lobster", sans-serif;
-    color: #C03F1D;
-}
-
 h1 {
     font-size: 4rem;
     font-family: "Lobster", sans-serif;
@@ -44,6 +38,11 @@ h3 {
     text-align: center;
 }
 
+.titleWithImage {
+    font-size: 4rem;
+    font-family: "Lobster", sans-serif;
+    color: #C03F1D;
+}
 
 /* paragraph font */
 p {
@@ -209,11 +208,17 @@ a:hover {
     background-color: #EDE7CD;
     border: 1.5px solid black;
     border-radius: 0%;
-    flex: 1 0 21%;
-    box-shadow: 7px 7px 3px rgb(103, 103, 103);
+    padding: 1em;
+    /* box-shadow: 7px 7px 3px rgb(103, 103, 103); */
     /* Adjust the width of the cards */
 }
 
+.bikeWinnerImg {
+    object-fit: cover; 
+    height: 16em;
+    border: 1px solid black;
+    border-radius: 0px;
+}
 
 .card-title-winner {
     font-family: "Merriweather", serif;
@@ -222,7 +227,7 @@ a:hover {
 .tankSealing {
     background-color: #E9F3F1;
     border: 1.5px solid black;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 7px 7px 3px rgb(103, 103, 103);
 }
 
@@ -230,7 +235,7 @@ a:hover {
     text-align: center;
     background-color: #2F3539;
     font-family: "Stint Ultra Condensed", serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: white;
     width: 100%;
     border-radius: 5px;
@@ -238,11 +243,12 @@ a:hover {
     border: 2px solid #2F3539;
 }
 
+
 .motoBtn:hover {
     text-align: center;
     background-color: #E9F3F1;
     font-family: "Stint Ultra Condensed", serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: black;
     width: 100%;
     border-radius: 5px;
@@ -251,12 +257,24 @@ a:hover {
 }
 
 
-.restorationsText {
+/* .restorationsText {
     background-color: #EDE7CD;
     border: 1.5px solid black;
     padding: 1rem;
     box-shadow: 7px 7px 3px rgb(103, 103, 103);
+} */
+
+.restorationsBg {
+    background-color: #EDE7CD;
+    border: 1.5px solid black;
+    padding: 2rem;
+    box-shadow: 7px 7px 3px rgb(103, 103, 103);
 }
+
+.restorationsPadd {
+    padding: 5px;
+}
+
 
 /* Testimonials */
 .testimonialText {
@@ -282,11 +300,16 @@ a:hover {
 
 .testimonialBg {
     background-color: #E9F3F1;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     border: 1.5px solid black;
 
 }
 
+.testimonialImg {
+    object-fit: cover; 
+    height: 13rem;
+    border: 1px solid black;
+}
 
 .double-border::before {
     content: '';
