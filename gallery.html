@@ -13,14 +13,13 @@
 <body>
     <div style="overflow-x: hidden;">
         <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+            <div class="w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav w-100 d-flex justify-content-around">
                         <li class="nav-item hover">
                             <a class="nav-title" href="index.html">Home</a>
                         </li>
@@ -54,7 +53,7 @@
 
 
 
-        <div class="container upperMargin">
+        <div class="container upperMargin gallery">
             <div class="row">
                 <!-- START OF ROW 1 -->
                 <div class="card-columns motoGallery">
@@ -240,7 +239,7 @@
 
                     <!-- START OF ROW 3 -->
                     <div class="card galleryStyle">
-                        <a href="images/Gallery/BikeshotLong.JPG" data-lightbox="gallery" data-title="Henderson X">
+                        <a href="images/Gallery/BikeshotLong2.JPG" data-lightbox="gallery" data-title="Henderson X">
                             <img class="w-100" alt="Henderson X" src="images/Gallery/Bikeshotlong2.JPG">
                         </a>
                     </div>
@@ -396,23 +395,23 @@
                             <img class="w-100" alt="Close Up" src="images/gallery/upclosewide1.JPG">
                         </a>
                     </div>
-                    <div class="card galleryStyle">
+                    <div class="card galleryStyle" style="margin-top:0.2rem">
                         <a href="images/gallery/partswide1.JPG" data-lightbox="gallery" data-title="Parts">
                             <img class="w-100" alt="Parts" src="images/gallery/partswide1.JPG">
                         </a>
                     </div>
-                    <div class="card galleryStyle">
+                    <div class="card galleryStyle" style="margin-top:0.5rem">
                         <a href="images/gallery/silvertankwide.JPEG" data-lightbox="gallery" data-title="Silver Tank">
                             <img class="w-100" alt="Silver Tank" src="images/gallery/silvertankwide.JPEG">
                         </a>
                     </div>
-                    <div class="card galleryStyle">
+                    <div class="card galleryStyle" style="margin-top:0.5rem">
                         <a href="images/gallery/indianpicwide.JPG" data-lightbox="gallery"
                             data-title="Indian Wide Shot">
                             <img class="w-100" alt="Indian Wide Shot" src="images/gallery/indianpicwide.JPG">
                         </a>
                     </div>
-                    <div class="card galleryStyle">
+                    <div class="card galleryStyle" style="margin-top:0.5rem">
                         <a href="images/gallery/BLUE .JPEG" data-lightbox="gallery" data-title="Blue Tank">
                             <img class="w-100" alt="Blue Tank" src="images/gallery/BLUE .JPEG">
                         </a>
@@ -424,27 +423,37 @@
 
 
         <!-- FOOTER SECTION -->
-        <footer class="footer upperMargin custom-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" style="width: 40%;">
-                    </div>
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-6 contact-info">
-                                <img src="images/HomePage/Footer/phoneIcon.png" style="width: 5%;">
-                                <a style="padding-left: 8px;">+022 524 8059</a>
-                            </div>
-                            <div class="col-md-6 contact-info">
-                                <img src="images/HomePage/Footer/emailIcon.png" style="width: 5%;">
-                                <a style="padding-left: 8px;">motocyclesandpaint@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
+        <!-- FOOTER -->
+        <br><br><br><br>
+        <div class="row upperMargin jockeyImgFooter" style="position: relative;">
+            <div class="md-12">
+                <img src="images/Other/JockeyMan.png" width="20%"
+                    style="position: absolute; right: 0; bottom: -0.1rem;">
+            </div>
+        </div>
+
+        <div class="footer page-footer">
+            <div class="row footerDiv">
+                <div class="col-s-12 col-md-12 col-xl-2 footerLogo center">
+                    <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" width="50%">
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/phoneIcon.png" alt="Phone Icon" width="23px"
+                        class="footer-icon center">
+                    <p class="center">+022 524 8059</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/emailIcon.png" alt="Email Icon" width="25px"
+                        class="footer-icon center">
+                    <p class="center">motocyclesandpaint@gmail.com</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-4 contact-info center">
+                    <img src="images/HomePage/Footer/facebook.png" alt="Address Icon" width="23px"
+                        class="footer-icon center">
+                    <a href="https://www.facebook.com/" target="_blank" class="center">Visit our Facebook</a>
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
 
 

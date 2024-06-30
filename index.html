@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Motocycles & Paint</title>
+    <title>Motocycles & Paint Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div style="overflow-x: hidden;">
+    <div style="overflow-x: hidden; overflow-y: hidden;">
         <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-            <div class="container">
+            <div class="w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item hover navactive">
+                    <ul class="navbar-nav w-100 d-flex justify-content-around">
+                        <li class="nav-item navactive">
                             <a class="nav-title" href="index.html">Home</a>
                         </li>
                         <li class="nav-item hover">
@@ -33,7 +33,7 @@
                         <li class="nav-item hover">
                             <a class="nav-title" href="contact.html">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item hover">
                             <a class="nav-title" href="products.html">Products</a>
                         </li>
                     </ul>
@@ -45,91 +45,89 @@
         <div class="home-bg">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-7">
-                    <img src="images/HomePage/HomeLogo.png" class="center motoLogo">
+                    <img src="images/HomePage/HomeLogo.png" class="center motoLogo" alt="Home Logo">
+                    <!-- Contact button -->
+                    <form action="contact.html" method="get">
+                        <button class="btn formBtnHome center">Contact Us</button>
+                    </form>
                 </div>
                 <div class="col-12 col-md-12 col-lg-5">
-                    <img src="images/HomePage/RedMotoHome.jpg" class="redMoto">
+                    <img src="images/HomePage/RedMotoHome.jpg" class="redMoto" alt="Red motorbike">
                 </div>
                 <div class="col-12 col-md-12 col-lg-5">
-                    <img src="images/HomePage/RedMotoHome2.jpg" class="redMoto2">
+                    <img src="images/HomePage/RedMotoHome2.jpg" class="redMoto2" alt="Red motorbike">
                 </div>
             </div>
         </div>
-        <!-- Indian motorbike -->
-        <!-- <div class=" center">
-            <marquee direction="right" width="100%" loop="INFINITE" scrollamount="10" scrolldelay="0.1">
-                <img src="images/HomePage/Indian_motorbike.png" alt=" indian motorcycle" width="10%">
-            </marquee>
-        </div> -->
+
 
         <div class="carouselMain">
             <div id="carouselExample" class="carousel slide carousel-bg" data-ride="carousel" data-interval="4000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/bikeWinnerr.JPEG" class="d-block" alt="Image 1">
+                            <img src="images/HomePage/Carousel/bikeWinnerr.JPEG" class="d-block" alt="Bike">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/blackBike.JPG" class="d-block" alt="Image 2">
+                            <img src="images/HomePage/Carousel/blackBike.JPG" class="d-block" alt="Bike">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/blackBike2.JPG" class="d-block" alt="Image 3">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/blueTanks.JPEG" class="d-block" alt="Image 4">
-                        </div>
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/blueTankSpray.JPEG" class="d-block" alt="Image 5">
-                        </div>
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/BSATank.JPEG" class="d-block" alt="Image 6">
+                            <img src="images/HomePage/Carousel/blackBike2.JPG" class="d-block" alt="Bike">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/BSATankBlack.JPEG" class="d-block" alt="Image 4">
+                            <img src="images/HomePage/Carousel/blueTanks.JPEG" class="d-block" alt="Tank">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/greenTank.JPG" class="d-block" alt="Image 5">
+                            <img src="images/HomePage/Carousel/blueTankSpray.JPEG" class="d-block" alt="Tank">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block" alt="Image 6">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/hendersonBike.JPG" class="d-block" alt="Image 4">
-                        </div>
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/hendersonBikeCU.JPG" class="d-block w-100" alt="Image 5">
-                        </div>
-                        <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/indianBike.JPEG" class="d-block w-100" alt="Image 6">
+                            <img src="images/HomePage/Carousel/BSATank.JPEG" class="d-block" alt="Tank">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/IndianGreenTank.JPEG" class="d-block w-100"
-                                alt="Image 4">
+                            <img src="images/HomePage/Carousel/BSATankBlack.JPEG" class="d-block" alt="Tank">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/indianTank2.JPEG" class="d-block" alt="Image 5">
+                            <img src="images/HomePage/Carousel/greenTank.JPG" class="d-block" alt="Tank">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/yamahaTank.JPG" class="d-block" alt="Image 6">
+                            <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block" alt="Tank">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/rudgeTank.JPEG" class="d-block" alt="Image 4">
+                            <img src="images/HomePage/Carousel/hendersonBike.JPG" class="d-block" alt="Bike">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/vincentTank.JPEG" class="d-block" alt="Image 5">
+                            <img src="images/HomePage/Carousel/hendersonBikeCU.JPG" class="d-block w-100" alt="Bike">
                         </div>
                         <div class="col-md-4 col-sm-12 float-left">
-                            <img src="images/HomePage/Carousel/whiteTank.JPEG" class="d-block" alt="Image 6">
+                            <img src="images/HomePage/Carousel/indianBike.JPEG" class="d-block w-100" alt="Bike">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/IndianGreenTank.JPEG" class="d-block w-100" alt="Tank">
+                        </div>
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/indianTank2.JPEG" class="d-block" alt="Tank">
+                        </div>
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/yamahaTank.JPG" class="d-block" alt="Tank">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/rudgeTank.JPEG" class="d-block" alt="Tank">
+                        </div>
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/vincentTank.JPEG" class="d-block" alt="Tank">
+                        </div>
+                        <div class="col-md-4 col-sm-12 float-left">
+                            <img src="images/HomePage/Carousel/whiteTank.JPEG" class="d-block" alt="Tank">
                         </div>
                     </div>
                 </div>
@@ -148,46 +146,46 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/HomePage/Carousel/bikeWinnerr.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/bikeWinnerr.JPEG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/blackBike.JPG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/blackBike.JPG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/blackBike2.JPG" class="d-block w-100" >
+                        <img src="images/HomePage/Carousel/blackBike2.JPG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/blueTanks.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/blueTanks.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/blueTankSpray.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/blueTankSpray.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/BSATank.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/BSATank.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/BSATankBlack.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/BSATankBlack.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/greenTank.JPG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/greenTank.JPG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/henderson.JPEG" class="d-block w-100" alt="Tank">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/hendersonBike.JPG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/hendersonBike.JPG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/hendersonBikeCU.JPG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/hendersonBikeCU.JPG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/indianBike.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/indianBike.JPEG" class="d-block w-100" alt="Bike">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/HomePage/Carousel/indianTank.JPEG" class="d-block w-100">
+                        <img src="images/HomePage/Carousel/indianTank.JPEG" class="d-block w-100" alt="Bike">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -202,17 +200,22 @@
         </div>
 
 
-        <br>
-        <br><br><br>
 
+
+        <!-- Indian motorbike -->
+        <div class="center motorbike-animation" style="position:relative; padding: 0; margin: 0;">
+            <marquee direction="right" width="100%" loop="INFINITE" scrollamount="20" scrolldelay="0.1">
+                <img src="images/HomePage/Indian_motorbike.png" alt=" indian motorcycle" width="10%">
+            </marquee>
+        </div>
 
         <div class="container">
-
             <!-- ABOUT US SECTION -->
             <div class="row">
                 <div class="col-sm-6">
                     <span class="titleWithImage">
-                        About Us <img src="images/Smallimages/racing.png" width="18%" style="padding-bottom: 0.3em;">
+                        About Us <img src="images/Smallimages/racing.png" style="padding-bottom: 0.3em; width: 18%;"
+                            alt="Racing motorbike">
                     </span>
                     <p>Moto is a small Wellington based restoration business that specialises in quality paintwork for
                         your
@@ -228,19 +231,20 @@
                     <img src="images/HomePage/aboutUsImage.jpg" alt="motorbike restoration" style="width: 100%;">
                 </div>
             </div>
+        </div>
 
-            <!-- BIKE SHOWER WINNERS SECTION -->
+
+        <!-- BIKE SHOWER WINNERS SECTION -->
+        <div class="container">
             <span class="titleWithImage center upperMargin">
-                <img src="images/Smallimages/racingbike.png" width="8%" style="padding-bottom: 0.5em;"
-                    class="racingImg">
                 Bike Show Winners
+                <img src="images/Smallimages/racingbike.png" style="padding-bottom: 0.5em; width: 8%;" class="racingImg"
+                    alt="Racing Bike">
             </span>
             <p class="center">We were excited to have three winning bikes at the last Kickback Classic Motorcycle Show
                 in
                 Upper Hutt 2022.
                 All bikes had complete bare metal paint and pinstriping undertaken by us.</p>
-
-
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="card bikeWinnerCard double-border mobileCard">
@@ -273,278 +277,291 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- TANK SEALING SECTION -->
-            <div class="tankSealing upperMargin center">
-                <div class="container">
-                    <span class="titleWithImage center">
-                        Tank Sealing
-                        <img src="images/Smallimages/RedKoteDry.png" width="8%" style="padding-bottom: 0.5rem;"
-                            class="racingImg">
-                    </span><br>
-                    <!-- <img src="images/HomePage/Group 633584.png" width="100%"><br><br> -->
-                    <div class="row">
-                        <div class="col-md-5 center">
-                            <img src="images/HomePage/TankSealingtext/Rust1.jpg" class="img-fluid"
-                                style="width: 100%; height: 20rem;" alt="Rusty tank">
-                        </div>
-                        <div class="col-md-3 center mobileCard tankMobileCard">
-                            <img src="images/HomePage/TankSealingtext/Rust2.jpg" class="img-fluid"
-                                style="width: 100%; height: 20rem;" alt="Rusty tank">
-                        </div>
-                        <div class="col-md-3 center test mobileCard tankMobileCard">
-                            <img src="images/HomePage/TankSealingtext/Rust3.jpg" class="img-fluid"
-                                style="width: 100%; height: 20rem;" alt="Tank with no rust">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="centerpara">We take pride in our three-step tank sealing service.
-                                <br><br>
-                                Many tanks have been rescued and bought back to use by our tank repair and internal
-                                sealing process.  I have repaired tanks with 2 to 103 pinholes. 
-
-                                Please don’t hesitate to contact me with your tank issues, I may be able to help.  I
-                                exclusively use Red Kote Fuel Tank Sealer, made in the USA.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BEFORE AND AFTER SECTION -->
-            <div class="upperMargin restorationsBg">
-                <div class="row mobileCard">
-                    <div class="col-sm-12 col-md-8 d-flex justify-content-start align-items-center">
-                        <h1 class="center h1Title">Full - or part - Restorations</h1>
-                    </div>
-                    <div class="col-sm-12 col-md-4 d-flex justify-content-end align-items-center">
-                        <button type="button" class="btn motoBtn center">Browse More</button>
-                    </div>
-                </div>
-                <br>
-                <div class="row mobileCard">
-                    <div class="col-sm-12 col-md-6 restorationsPadd">
-                        <img src="images/HomePage/BeforeAfter/BLUEGroup.jpg" width="100%" />
-                    </div>
-                    <div class="col-sm-12 col-md-6 restorationsPadd">
-                        <img src="images/HomePage/BeforeAfter/IndianGroup.jpg" width="100%" />
-                    </div>
-                </div>
-                <br>
-                <div class="col-sm-12 col-md-12 restorationsText center">
-                    <p>If you are looking for someone to carry out a restoration of your motorcycle then give me a call
-                        to discuss what you are looking for, whether it be a ground-up bare metal restoration, a paint
-                        job, or simply a freshen up. We also do patina. I have great contacts with local specialist
-                        engineers and platers, we can work with you to bring
-                        to life your vision for your motorcycle.
-                    </p>
-                </div>
-            </div>
-            <br>
-
-
-            <!-- TESTIMONIALS -->
-            <span class="titleWithImage center upperMargin">
-                Testimonials
-                <img src="images/Smallimages/manwomanride.png" width="10%" style="padding-bottom: 1rem;"
-                    class="racingImg">
-            </span>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3">
-                        <div class="card">
-                            <div class="card-body testimonialBg double-border">
-                                <img src="images/HomePage/Testimonials/Gerry.JPEG"
-                                    class="img-fluid testimonialImg center" alt="Gerry Testimonial">
-                                <div class="testimonialText mt-3">
-                                    <p class="testimonialPara">“..I am and remain a very happy customer, the photo will
-                                        show why...”</p><br>
-                                    <p class="testimonialmuted">Gerry Appel</p>
-                                    <br>
-                                </div><br>
-                                <button type="button" class="btn motoBtn center" data-toggle="modal"
-                                    data-target="#modalGerry">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card mobileCard">
-                            <div class="card-body testimonialBg double-border">
-                                <img src="images/HomePage/Testimonials/Jon Turney.jpg"
-                                    class="img-fluid testimonialImg center" alt="Gerry Testimonial">
-                                <div class="testimonialText mt-3">
-                                    <p class="testimonialPara">“..What returned was simply
-                                        amazing, James had
-                                        researched the correct colours, the width of the delicate pin-striping...”</p>
-                                    <p class="testimonialmuted">John Turney</p>
-                                    <br>
-                                </div><br>
-                                <button type="button" class="btn motoBtn center" data-toggle="modal"
-                                    data-target="#modalJohn">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card mobileCard">
-                            <div class="card-body testimonialBg double-border">
-                                <img src="images/HomePage/Testimonials/Mike.jpg" class="img-fluid testimonialImg center"
-                                    alt="Gerry Testimonial">
-                                <div class="testimonialText mt-3">
-                                    <p class="testimonialPara">“..The only thing people talk about with my bike is the
-                                        Paint Job! James was brilliant to deal with and did an exceptional job...” </p>
-
-                                    <p class="testimonialmuted">Mike</p>
-                                    <br>
-                                </div><br>
-                                <button type="button" class="btn motoBtn center" data-toggle="modal"
-                                    data-target="#modalMike">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- MODALS -->
-
-            <!-- Gerry Appel-->
-            <div class="modal fade" id="modalGerry" tabindex="-1" role="dialog" aria-labelledby="modalGerry"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header" style="background-color: #E9F3F1;">
-                            <p class="modal-title" id="exampleModalLongTitle">Gerry Appel
-                            <p>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p style="font-size: 15px;">
-                                "The crowning glory of any well restored motorcycle is surely the petrol tank, but only
-                                if
-                                this has been expertly painted.  The painting of tanks is a specialised job, especially
-                                for
-                                the earlier thanks with multiple pinstriping and colours.<br><br>
-
-                                That is why I talked to James Chambers when it came to getting my own tank and bike
-                                painted.  I am and remain a very happy customer, the photo will show why."
-                            </p>
-                        </div>
-                        <div class="modal-footer" style="background-color: #E9F3F1;">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- John Turney-->
-            <div class="modal fade" id="modalJohn" tabindex="-1" role="dialog" aria-labelledby="modalJohn"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header" style="background-color: #E9F3F1;">
-                            <p class="modal-title" id="exampleModalLongTitle">John Turney
-                            <p>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p style="font-size: 15px;">
-                                "I have been restoring a ’27 Triumph ‘flat-tank’ motorcycle, one item I’d been putting
-                                off
-                                was getting the new fuel tank painted.
-                                 <br><br>
-                                It was difficult to get a true reckoning of the original colours, it had fine
-                                pin-striping
-                                and required two delicate decals to be applied.
-                                James had shown me some photos of previous work he had completed, the workmanship looked
-                                like pure art... and so I entrusted this painting job to him.  All I could provide to
-                                him
-                                was the raw steel tank and a few fuzzy photographs, all of them in B & W.
-                                 <br><br>
-                                What returned was simply amazing, James had researched the correct colours, the width of
-                                the
-                                delicate pin-striping and applied the even more delicate decals with precision. Finish
-                                coated in what has proven to be a very robust clear lacquer, the tank is truly the
-                                crowning
-                                glory of the bike’s restoration.
-                                 <br><br>
-                                Trouble is, it’s made the rest of the bike look a bit average...sigh."
-                            </p>
-                        </div>
-                        <div class="modal-footer" style="background-color: #E9F3F1;">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mike-->
-            <div class="modal fade" id="modalMike" tabindex="-1" role="dialog" aria-labelledby="modalMike"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header" style="background-color: #E9F3F1;">
-                            <p class="modal-title" id="exampleModalLongTitle">John Turney
-                            <p>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p style="font-size: 15px;">
-                                "The only thing people talk about with my bike is the Paint Job!
-                                <br><br>
-                                James was brilliant to deal with and did an exceptional job.
-                                <br><br>
-                                Proper ‘old school’ craftsmanship."
-                            </p>
-                        </div>
-                        <div class="modal-footer" style="background-color: #E9F3F1;">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
         </div>
 
-
-        <!-- FOOTER SECTION -->
-        <footer class="footer upperMargin custom-footer">
+        <!-- TANK SEALING SECTION -->
+        <div class="tankSealing upperMargin center container">
             <div class="container">
+                <span class="titleWithImage center">
+                    Tank Sealing
+                    <img src="images/Smallimages/RedKoteDry.png" style="padding-bottom: 0.5rem; width: 8%;"
+                        class="Red Kote Dry" alt="Red Kote Dry">
+                </span><br>
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" style="width: 40%;">
+                    <div class="col-md-5 center">
+                        <img src="images/HomePage/TankSealingtext/Rust1.jpg" class="img-fluid tankRustImg"
+                            style="width: 100%; height: 20rem; " alt="Rusty tank">
                     </div>
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-6 contact-info">
-                                <img src="images/HomePage/Footer/phoneIcon.png" style="width: 5%;">
-                                <a style="padding-left: 8px;">+022 524 8059</a>
-                            </div>
-                            <div class="col-md-6 contact-info">
-                                <img src="images/HomePage/Footer/emailIcon.png" style="width: 5%;">
-                                <a style="padding-left: 8px;">motocyclesandpaint@gmail.com</a>
-                            </div>
+                    <div class="col-md-3 center mobileCard tankMobileCard">
+                        <img src="images/HomePage/TankSealingtext/Rust2.jpg" class="img-fluid"
+                            style="width: 100%; height: 20rem;" alt="Rusty tank">
+                    </div>
+                    <div class="col-md-3 center test mobileCard tankMobileCard">
+                        <img src="images/HomePage/TankSealingtext/Rust3.jpg" class="img-fluid"
+                            style="width: 100%; height: 20rem;" alt="Tank with no rust">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="centerpara">We take pride in our three-step tank sealing service.
+                            <br><br>
+                            Many tanks have been rescued and bought back to use by our tank repair and internal
+                            sealing process.  I have repaired tanks with 2 to 103 pinholes. 
+
+                            Please don’t hesitate to contact me with your tank issues, I may be able to help.  I
+                            exclusively use Red Kote Fuel Tank Sealer, made in the USA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <!-- Birds eye motorbike -->
+        <div class="center motorbike-animation" style="position:relative; padding: 0; margin: 0;">
+            <marquee direction="right" width="100%" loop="INFINITE" scrollamount="20" scrolldelay="0.1">
+                <img src="images/Smallimages/Birdseyeview.png" alt=" indian motorcycle" width="10%">
+            </marquee>
+        </div>
+
+        <!-- BEFORE AND AFTER SECTION -->
+        <div class=" restorationsBg container">
+            <div class="row mobileCard">
+                <div class="col-sm-12 col-md-8 justify-content-start align-items-center">
+                    <h1 class="center h1Title">Full - or part - Restorations</h1>
+                </div>
+                <div class="col-sm-12 col-md-4 justify-content-end align-items-center">
+                    <!-- <button type="button" class="btn motoBtn center">
+                        <a href="restorations.html">Browse More</a></button> -->
+                    <form action="restorations.html" method="get" style="padding-top: 1.3rem;">
+                        <button class="btn motoBtn center">Browse More</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="row mobileCard">
+                <div class="col-sm-12 col-md-6 restorationsPadd">
+                    <img src="images/HomePage/BeforeAfter/BLUEGroup.jpg" alt="Before and After tank" width="100%">
+                </div>
+                <div class="col-sm-12 col-md-6 restorationsPadd">
+                    <img src="images/HomePage/BeforeAfter/IndianGroup.jpg" alt="Before and After tank" width="100%">
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-12 col-md-12 restorationsText center">
+                <p>If you are looking for someone to carry out a restoration of your motorcycle then give me a call
+                    to discuss what you are looking for, whether it be a ground-up bare metal restoration, a paint
+                    job, or simply a freshen up. We also do patina. I have great contacts with local specialist
+                    engineers and platers, we can work with you to bring
+                    to life your vision for your motorcycle.
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <!-- TESTIMONIALS -->
+        <span class="titleWithImage center upperMarginSmall">
+            Testimonials
+            <img src="images/Smallimages/manwomanride.png" style="padding-bottom: 2rem; width: 8%;" class="racingImg"
+                alt="Man and woman ride">
+        </span>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body testimonialBg double-border">
+                            <img src="images/HomePage/Testimonials/Gerry.JPEG" class="img-fluid testimonialImg center"
+                                alt="Gerry Testimonial">
+                            <div class="testimonialText mt-3">
+                                <p class="testimonialPara">“..I am and remain a very happy customer, the photo will
+                                    show why...”</p><br>
+                                <p class="testimonialmuted">Gerry Appel</p>
+                                <br>
+                            </div><br>
+                            <button type="button" class="btn motoBtn center" data-toggle="modal"
+                                data-target="#modalGerry">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card mobileCard">
+                        <div class="card-body testimonialBg double-border">
+                            <img src="images/HomePage/Testimonials/Jon Turney.jpg"
+                                class="img-fluid testimonialImg center" alt="John Testimonial">
+                            <div class="testimonialText mt-3">
+                                <p class="testimonialPara">“..What returned was simply
+                                    amazing, James had
+                                    researched the correct colours, the width of the delicate pin-striping...”</p>
+                                <p class="testimonialmuted">John Turney</p>
+                                <br>
+                            </div><br>
+                            <button type="button" class="btn motoBtn center" data-toggle="modal"
+                                data-target="#modalJohn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card mobileCard">
+                        <div class="card-body testimonialBg double-border">
+                            <img src="images/HomePage/Testimonials/Mike.jpg" class="img-fluid testimonialImg center"
+                                alt="Mike Testimonial">
+                            <div class="testimonialText mt-3">
+                                <p class="testimonialPara">“..The only thing people talk about with my bike is the
+                                    Paint Job! James was brilliant to deal with and did an exceptional job...” </p>
+
+                                <p class="testimonialmuted">Mike</p>
+                                <br>
+                            </div><br>
+                            <button type="button" class="btn motoBtn center" data-toggle="modal"
+                                data-target="#modalMike">Read More</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
+        <!-- MODALS -->
+
+        <!-- Gerry Appel-->
+        <div class="modal fade" id="modalGerry" tabindex="-1" role="dialog" aria-labelledby="modalGerry"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #E9F3F1;">
+                        <p class="modal-title" id="GerryModal">Gerry Appel
+                        <p>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <p style="font-size: 15px;">
+                            "The crowning glory of any well restored motorcycle is surely the petrol tank, but only
+                            if
+                            this has been expertly painted.  The painting of tanks is a specialised job, especially
+                            for
+                            the earlier thanks with multiple pinstriping and colours.<br><br>
+
+                            That is why I talked to James Chambers when it came to getting my own tank and bike
+                            painted.  I am and remain a very happy customer, the photo will show why."
+                        </p>
+                    </div>
+                    <div class="modal-footer" style="background-color: #E9F3F1;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- John Turney-->
+        <div class="modal fade" id="modalJohn" tabindex="-1" role="dialog" aria-labelledby="modalJohn"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #E9F3F1;">
+                        <p class="modal-title" id="JohnTurneyModal">John Turney
+                        <p>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <p style="font-size: 15px;">
+                            "I have been restoring a ’27 Triumph ‘flat-tank’ motorcycle, one item I’d been putting
+                            off
+                            was getting the new fuel tank painted.
+                             <br><br>
+                            It was difficult to get a true reckoning of the original colours, it had fine
+                            pin-striping
+                            and required two delicate decals to be applied.
+                            James had shown me some photos of previous work he had completed, the workmanship looked
+                            like pure art... and so I entrusted this painting job to him.  All I could provide to
+                            him
+                            was the raw steel tank and a few fuzzy photographs, all of them in B & W.
+                             <br><br>
+                            What returned was simply amazing, James had researched the correct colours, the width of
+                            the
+                            delicate pin-striping and applied the even more delicate decals with precision. Finish
+                            coated in what has proven to be a very robust clear lacquer, the tank is truly the
+                            crowning
+                            glory of the bike’s restoration.
+                             <br><br>
+                            Trouble is, it’s made the rest of the bike look a bit average...sigh."
+                        </p>
+                    </div>
+                    <div class="modal-footer" style="background-color: #E9F3F1;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mike-->
+        <div class="modal fade" id="modalMike" tabindex="-1" role="dialog" aria-labelledby="modalMike"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #E9F3F1;">
+                        <p class="modal-title" id="MikeModal">Mike
+                        <p>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <p style="font-size: 15px;">
+                            "The only thing people talk about with my bike is the Paint Job!
+                            <br><br>
+                            James was brilliant to deal with and did an exceptional job.
+                            <br><br>
+                            Proper ‘old school’ craftsmanship."
+                        </p>
+                    </div>
+                    <div class="modal-footer" style="background-color: #E9F3F1;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <!-- FOOTER -->
+        <br><br><br><br>
+        <div class="row upperMargin jockeyImgFooter" style="position: relative;">
+            <div class="md-12">
+                <img src="images/Other/JockeyMan.png" style="position: absolute; right: 0; bottom: -0.1rem; width: 20%;"
+                    alt="Jockey Man">
+            </div>
+        </div>
+
+        <div class="footer page-footer">
+            <div class="row footerDiv">
+                <div class="col-s-12 col-md-12 col-xl-2 footerLogo center">
+                    <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" width="50%">
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/phoneIcon.png" alt="Phone Icon" width="20px"
+                        class="footer-icon center">
+                    <p class="center">+022 524 8059</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/emailIcon.png" alt="Email Icon" width="20px"
+                        class="footer-icon center">
+                    <p class="center">motocyclesandpaint@gmail.com</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-4 contact-info center">
+                    <img src="images/HomePage/Footer/facebook.png" alt="Facebook Icon" width="20px"
+                        class="footer-icon center">
+                    <a href="https://www.facebook.com/" target="_blank" class="center">Visit our Facebook</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF OVERFLOW -->
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"

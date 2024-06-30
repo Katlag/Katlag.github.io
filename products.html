@@ -11,13 +11,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-        <div class="container">
+        <div class="w-100">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav w-100 d-flex justify-content-around">
                     <li class="nav-item hover">
                         <a class="nav-title" href="index.html">Home</a>
                     </li>
@@ -49,31 +49,42 @@
         </div>
     </div>
 
-    <h2 class="center" style="margin-top: 5rem;">Coming Soon</h2>
-    <img src ="images/Products/peopleonbike(2).png" class="center placeholder">
+    <div style="overflow-x: hidden;">
+        <h2 class="center" style="margin-top: 5rem;">Coming Soon</h2>
+        <img src="images/Products/peopleonbike(2).png" class="center comingSoon">
 
-    <!-- FOOTER SECTION -->
-    <footer class="footer upperMargin custom-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" style="width: 40%;">
+        <!-- FOOTER SECTION -->
+        <!-- FOOTER -->
+
+        <!-- <div class="row upperMargin jockeyImgFooter" style="position: relative;">
+        <div class="md-12">
+            <img src="images/Other/JockeyMan.png" width="20%" style="position: absolute; right: 0; bottom: -0.1rem;">
+        </div>
+    </div> -->
+
+        <div class="footer page-footer">
+            <div class="row footerDiv">
+                <div class="col-s-12 col-md-12 col-xl-2 footerLogo center">
+                    <img src="images/HomePage/Footer/FooterLogo.png" alt="Logo" class="logo" width="50%">
                 </div>
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-6 contact-info">
-                            <img src="images/HomePage/Footer/phoneIcon.png" style="width: 5%;">
-                            <a style="padding-left: 8px;">+022 524 8059</a>
-                        </div>
-                        <div class="col-md-6 contact-info">
-                            <img src="images/HomePage/Footer/emailIcon.png" style="width: 5%;">
-                            <a style="padding-left: 8px;">motocyclesandpaint@gmail.com</a>
-                        </div>
-                    </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/phoneIcon.png" alt="Phone Icon" width="20px"
+                        class="footer-icon center">
+                    <p class="center">+022 524 8059</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-3 contact-info center">
+                    <img src="images/HomePage/Footer/emailIcon.png" alt="Email Icon" width="20px"
+                        class="footer-icon center">
+                    <p class="center">motocyclesandpaint@gmail.com</p>
+                </div>
+                <div class="col-s-12 col-md-12 col-xl-4 contact-info center">
+                    <img src="images/HomePage/Footer/facebook.png" alt="Address Icon" width="20px"
+                        class="footer-icon center">
+                    <a href="https://www.facebook.com/" target="_blank" class="center">Visit our Facebook</a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
