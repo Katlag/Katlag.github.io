@@ -429,35 +429,30 @@ a:hover {
     background-color: #2F3539;
 }
 
-.page-footer p {
-    color: white;
-    text-align: center;
-    float: left;
-    font-size: 15px;
-}
-
+.page-footer p,
 .page-footer a {
     color: white;
-    text-align: center;
-    float: left;
     font-size: 15px;
     text-decoration: underline;
     font-family: "Merriweather", serif;
-}
-
-.footer-icon {
-    float: left;
-    margin-right: 0.5rem;
+    margin: 0;
+    /* Ensure there's no additional margin */
 }
 
 .contact-info {
-    padding-top: 1.6rem;
+    display: flex;
+    justify-content: center;
 }
 
-.facebook {
-    text-decoration: underline;
-    color: white;
+.contact-center {
+    display: flex;
+    align-items: center;
 }
+
+.contact-center img {
+    margin-right: 0.5rem;
+}
+
 
 
 .jockeyManDiv {
@@ -594,19 +589,14 @@ a:hover {
 
 
     /* FOOTER */
+    .footerLogo,
     .contact-info {
-        justify-content: center;
         text-align: center;
-        margin: 0 auto;
-        padding: 0rem;
+        padding: 0.5em;
     }
 
-    .footerDiv {
-        margin-right: auto;
-        margin-left: auto;
-        /* display: block; */
-        margin: 0 auto;
-        text-align: center;
+    .contact-center {
+        justify-content: center;
     }
 
     .footerLogo {
@@ -686,4 +676,16 @@ a:hover {
         width: 100%;
     }
 
+    /* .phoneMobile {
+        margin-left: 9rem;
+        padding-top: 1em;
+    }
+
+    .emailMobile {
+        margin-left: 5rem
+    }
+
+    .facebookMobile {
+        margin-left: 8.5rem
+    } */
 }
